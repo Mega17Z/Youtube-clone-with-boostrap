@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=video_call" />
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+</head>
+<body>
+  <header class="position-relative">  
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid d-flex justify-content-between">
+          <div class="part-logo d-flex align-items-center">
+            <i class="fa-solid fa-bars text-light mx-3 me-4 fs-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>        
+            <div class="logo-im-text d-flex align-items-center">
+                <img src="image/pngwing.com.png" alt="" class="img-fluid">
+                <h5 class="text-light d-flex align-items-center mx-1 mt-2">Youtube<span class="sn position-relative mx-2">SN</span></h5>
+            </div>
+          </div>
+          <div class="Search-bar d-none d-lg-flex align-items-center">
+            <form action="" class="ms-5">
+              <div class="input-group rounded-5">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </form>
+            <div class="micro mx-3 d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-microphone text-light"></i>
+            </div>
+          </div>
+          <div class="part-icon d-flex align-items-center gap-3 text-light px-2">
+            <div class="icon-content mx-1"><span class="material-symbols-outlined">video_call</span></div>
+            <div class="icon-content mx-1"><i class="fa-solid fa-bell text-light"></i></div>
+            <div class="icon-content mx-1"><img src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt=""></div>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <div class="side d-flex w-100">
+    <div class="d-flex justify-content-center px-3" style="width: 130px; background-color: black;">
+        <div class="icones position-fixed d-flex flex-column gap-4">
+            <a href="" class="p-2 d-flex align-items-center flex-column"><i class="fa-solid fa-house fs-6"></i><span class="d-block">Accueil</span></a>
+            <a href="" class="p-2 d-flex align-items-center flex-column"><i class="fa-solid fa-film fs-6"></i><span class="d-block">Short</span></a>
+            <a href="" class="p-2 d-flex align-items-center flex-column"><i class="fa-solid fa-layer-group fs-6"></i><span class="d-block">Abonnements</span></a>
+            <a href="" class="p-2 d-flex align-items-center flex-column"><i class="fa-solid fa-photo-film fs-6"></i><span class="d-block">Vous</span></a>
+        </div>
+    </div>
+    <div class="s-right">
+      <ul class="d-flex text-light align-items-center gap-3 position-fixed">
+        <li class="p-1 px-2 rounded-3 bg-light text-dark">Tous</li>
+        <li class="p-1 px-2 rounded-3">Informatique</li>
+        <li class="p-1 px-2 rounded-3">Sport</li>
+        <li class="p-1 px-2 rounded-3">International</li>
+        <li class="p-1 px-2 rounded-3">Musique</li>
+        <li class="p-1 px-2 rounded-3">Clip</li>
+        <li class="p-1 px-2 rounded-3">Developper</li>
+        <li class="p-1 px-2 rounded-3">Javascript</li>
+        <li class="p-1 px-2 rounded-3">Lamb</li>
+        <li class="p-1 px-2 rounded-3">Divertissement</li>
+        <li class="p-1 px-2 rounded-3">Games</li>
+        <li class="p-1 px-2 rounded-3">Etudes</li>
+        <li class="p-1 px-2 rounded-3">Drames</li>
+        <li class="p-1 px-2 rounded-3">Series</li>
+        <li class="p-1 px-2 rounded-3">Spot</li>
+        <li class="p-1 px-2 rounded-3">Marathon</li>
+      </ul>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video rounded">
+                <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=1" alt="">
+                  <div class="name-follow">
+                    <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                    <p class="mt-2 m-0">Motivation XXL</p>
+                    <p class="m-0">318 vues . il ya 3 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded">
+                <iframe src="https://www.youtube.com/embed/lLqBKKxixJc?si=5l4tYyLyqBet3-SF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=4" alt="">
+                  <div class="name-follow">
+                    <h6>Le combat royal entre Modou Lo - Boy Niang</h6>
+                    <p class="m-0">Sunu Lamb</p>
+                    <p class="m-0">2k vues . il ya 9 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube rounded-3">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/H90FdQU1cqI?si=Rdblu4RLKkUpPpOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=3" alt="">
+                  <div class="name-follow">
+                    <h6>Ranianou Yoneneti bi (Psl) detaillé par Oustaz</h6>
+                    <p class="m-0">Waxtane</p>
+                    <p class="m-0">4k . il ya 1 an</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe src="https://www.youtube.com/embed/S9OiWe5iBYo?si=NF7jFheBb5pWEiqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=2" alt="">
+                  <div class="name-follow">
+                    <h6>Gerer la responsivité de votre page en quelques minutes</h6>
+                    <p class="m-0">Developement Web</p>
+                    <p class="m-0">3k vues . il ya 5 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I5DmlCW-vNI?si=keryXDZzx3247g57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=5" alt="">
+                  <div class="name-follow">
+                    <h6>Il ne faut Jamais forcer ces 3 choses</h6>
+                    <p class="m-0">Philosophe</p>
+                    <p class="m-0">31k vues . il ya 2 ans</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SBNo8JJTcJ8?si=Kh7DElAFIakkUSsX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=6" alt="">
+                  <div class="name-follow">
+                    <h6>Preparation pain au cholocat avec des oueuf</h6>
+                    <p class="m-0">Recette</p>
+                    <p class="m-0">10k vues . il ya 8 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 d-flex justify-content-between text-light">
+            <div class="logo-titre d-flex align-items-center gap-2">
+              <img src="image/pngwing.com.png" alt="" class="img-fluid">
+              <h5 class="m-0">Shorts</h5>
+            </div>
+            <i class="fa-solid fa-xmark fs-5"></i>
+          </div>
+
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/COMMENT AUGMENTER LA VITESSE DU PROCESSEUR DE MON PC WINDOWS ( Améliorer les performances du pc ) - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Welcome</h6>
+                <p class="m-0 ">10k vues . il ya 1 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/Website Presentation Mockup Video - After Effects Template - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Website prototypes</h6>
+                <p class="m-0 ">389 vues . il ya 2 ans</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/Solo Leveling4 - Trim - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Solo Leveling</h6>
+                <p class="m-0 ">20k vues . il ya 5 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/Limit Input Characters using HTML CSS & JavaScript - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Compteurs de caracteres</h6>
+                <p class="m-0">3k vues . il ya 3 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+        </div>
+        <div class="trait-button mt-5 position-relative">
+          <div class="trait position-absolute"></div>
+          <a href="#haut" id="bas" class="d-block px-5 py-1 mx-auto w-25 mx-auto border rounded-5 d-flex align-items-center justify-content-center">Plus <i class="fa-solid fa-angle-down ms-2"></i></a>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J8hU4fq41c4?si=F-cm529XrJbax2pl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=1" alt="">
+                  <div class="name-follow">
+                    <h6>Players vs Fans Epic Moments!</h6>
+                    <p class="mt-2 m-0">Football</p>
+                    <p class="m-0">39k vues . il ya 2 heures</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gd_YcItmpIg?si=7w9hB14FjIREShRH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=2" alt="">
+                  <div class="name-follow">
+                    <h6>Akhlou Brick - Jeu de mots (Freestyle)</h6>
+                    <p class="m-0">Akhlou Brick</p>
+                    <p class="m-0">10k vues . il ya 4 ans</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube rounded-3">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2JvUdfrGgUQ?si=DIY92jvc2sdyErMu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=3" alt="">
+                  <div class="name-follow">
+                    <h6>Crise Dans le Mariage Pr Serigne Chiekh akhmet Tidiane Sy Al maktoum</h6>
+                    <p class="m-0">Eutou Maam</p>
+                    <p class="m-0">8k . il ya 3 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zqxzfXmmhP0?si=Tk2rj1vWjK4iY_Ue" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=4" alt="">
+                  <div class="name-follow">
+                    <h6>Cookiesan - MINATO ⚡️ (AMV) | Le Manga Rap NARUTO</h6>
+                    <p class="m-0">Manga</p>
+                    <p class="m-0">27k vues . il ya 10 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BRZigOiobaw?si=pF-IQP8Fhp0P9Ge6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe> 
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=5" alt="">
+                  <div class="name-follow">
+                    <h6>Créer un Formulaire de Connexion Animé en HTML & CSS - Partie HTML</h6>
+                    <p class="m-0">Html-Css</p>
+                    <p class="m-0">13 vues . il ya 1 heure</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/estyTh29GkA?si=yxF3pBdtUhSC0AIb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=6" alt="">
+                  <div class="name-follow">
+                    <h6>The brutal sport that you have probably never heard of | Next of Kin: Laamb</h6>
+                    <p class="m-0">Search</p>
+                    <p class="m-0">29k vues . il ya 2 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GFyFFMvAOpw?si=RIjqzI6n-pdhVPBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=1" alt="">
+                  <div class="name-follow">
+                    <h6>Garp vs Aokiji (Final)「One Piece AMV」Come Back to Me</h6>
+                    <p class="mt-2 m-0">Univers Anime</p>
+                    <p class="m-0">12k vues . il ya 4 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YgSAz-AnZQA?si=HhjV0yoQCB4FuDHv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=2" alt="">
+                  <div class="name-follow">
+                    <h6>NBA "Street-Ball Dribbling" 🔥 MOMENTS</h6>
+                    <p class="m-0">Nba</p>
+                    <p class="m-0">15k vues . il ya 15 jours</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube rounded-3">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AMV25DcY7YQ?si=udJz6USylBhyUUIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=3" alt="">
+                  <div class="name-follow">
+                    <h6>1er round Gris Bordeaux-Modou Lô : Il pleut des coups</h6>
+                    <p class="m-0">Albourax</p>
+                    <p class="m-0">2k . il ya 1 an</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hIEZ8xpdBts?si=5Msft4JN1irZE0VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=4" alt="">
+                  <div class="name-follow">
+                    <h6>Comprendre TOUTES les balises HTML en 13 minutes</h6>
+                    <p class="m-0">Codage</p>
+                    <p class="m-0">12k vues . il ya 9 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mJG4KFnFbLA?si=iO7rLkxWMpmqsO0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=5" alt="">
+                  <div class="name-follow">
+                    <h6>WOUY😂Appelle Thioune boutique Ak Faux Marabou bi 😭😂😂😂</h6>
+                    <p class="m-0">Thioune</p>
+                    <p class="m-0">2k vues . il ya 3 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OuvOg1hNgiw?si=ydlYkfkqd9NgLzRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=6" alt="">
+                  <div class="name-follow">
+                    <h6>AWW NEW FUNNY 😂 Funny Videos #300</h6>
+                    <p class="m-0">Funny</p>
+                    <p class="m-0">3k vues . il ya 1 an</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 d-flex justify-content-between text-light">
+            <div class="logo-titre d-flex align-items-center gap-2">
+              <img src="image/pngwing.com.png" alt="" class="img-fluid">
+              <h5 class="m-0">Shorts</h5>
+            </div>
+            <i class="fa-solid fa-xmark fs-5"></i>
+          </div>
+
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/Akhlou Brick - Mbaye Petaw ( Clip Officiel) - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Brickest</h6>
+                <p class="m-0 ">10k vues . il ya 1 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/videoplayback - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Techniques</h6>
+                <p class="m-0 ">389 vues . il ya 2 ans</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/ARGENTREPRENEUR - BANDE ANNONCE (MOTIVATION) - Trim.mp4">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Motivaction</h6>
+                <p class="m-0 ">20k vues . il ya 5 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 p-2 short text-light mt-3">
+            <div class="video rounded-3">
+              <video class="rounded-3" autoplay muted>
+                <source src="Short/1 - Trim.avi">
+              </video>
+            </div>
+            <div class="info-video d-flex justify-content-between gap-2 mt-2">
+              <div class="video-text">
+                <h6 class="m-0">Vikings</h6>
+                <p class="m-0">3k vues . il ya 3 mois</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+        </div>
+        <div class="trait-button mt-5 position-relative">
+          <div class="trait position-absolute"></div>
+          <a href="#bas" id="haut" class="d-block px-5 py-1 mx-auto w-25 mx-auto border rounded-5 d-flex align-items-center justify-content-center">Plus <i class="fa-solid fa-angle-down ms-2"></i></a>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VRperOpzIMo?si=tvqRfiFLbcyiLvmi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=1" alt="">
+                  <div class="name-follow">
+                    <h6>NARUTO ~ MANGA RAP</h6>
+                    <p class="mt-2 m-0">Anime</p>
+                    <p class="m-0">35k vues . il ya 4 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/51li7MYJ8-Q?si=oh7FMv0BCvFgr0oy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=2" alt="">
+                  <div class="name-follow">
+                    <h6>Taal Bi feat. BM Jaay - YOYOU (Official Music Video)</h6>
+                    <p class="m-0">Rap</p>
+                    <p class="m-0">18k vues . il ya 5 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube rounded-3">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/szBDJXnlUTE?si=7UEAYOSbTY5wc18C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=3" alt="">
+                  <div class="name-follow">
+                    <h6>ce qui se passe lorsqu'il n'y a pas de BARAKA dans ta vie || Pr Rashid Eljay</h6>
+                    <p class="m-0">Islam</p>
+                    <p class="m-0">324 . il ya 2 heures</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube rounded-3">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VozDbNt-guY?si=caFCwMUNzK9seMwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=3" alt="">
+                  <div class="name-follow">
+                    <h6>L'INCROYABLE HISTOIRE DE L'ISLAM (571 - 632 )</h6>
+                    <p class="m-0">Islam</p>
+                    <p class="m-0">40k . il ya 1 an</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qg6ijTVH4Z0?si=7gVdjILV0u7aVc_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=5" alt="">
+                  <div class="name-follow">
+                    <h6>Training MMA</h6>
+                    <p class="m-0">Trainer</p>
+                    <p class="m-0">322 vues . il ya 2 jours</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-2 text-light">
+            <div class="card-youtube">
+              <div class="video bg-danger rounded-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CNpHk94Ni0E?si=sPOgRSJk5luhK81b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover" allowfullscreen></iframe>
+              </div>
+              <div class="info-video mt-2 d-flex justify-content-between">
+                <div class="imaage-titre d-flex gap-3">
+                  <img src="https://picsum.photos/300/150?random=6" alt="">
+                  <div class="name-follow">
+                    <h6>5 ANIMES DE COMBAT BADASS AVEC UNE ANIMATION INCROYABLE</h6>
+                    <p class="m-0">Uzumaki</p>
+                    <p class="m-0">12k vues . il ya 11 mois</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical fs-6 mt-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+<!-- Le offcanvas -->
+    <div class="offcanvas offcanvas-start text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <div class="part-logo d-flex align-items-center">
+            <i class="fa-solid fa-bars text-light mx-3 fs-5" data-bs-dismiss="offcanvas" aria-label="Close"></i>        
+            <div class="logo-im-text d-flex align-items-center">
+                <img src="image/pngwing.com.png" alt="" class="img-fluid">
+                <h4 class="text-light d-flex align-items-center mx-2 mt-2">Youtube<span class="sn position-relative mx-2">SN</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-body">
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2"><i class="fa-solid fa-house fs-6"></i><span class="ms-3">Accueil</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-film fs-6"></i><span class="ms-3">Shorts</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-layer-group fs-6"></i><span class="ms-3">Abonnement</span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2"><span class="me-3">Vous</span><i class="fa-solid fa-angle-right fs-6"></i></a>
+            <a href="" class="p-2"><i class="fa-solid fa-tv fs-6"></i><span class="ms-3">Votre chaine</span></a>
+            <a href="" class="p-2"><i class="fa-regular fa-clock fs-6"></i><span class="ms-3">Historique</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-barcode fs-6"></i><span class="ms-3">Playlist</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-photo-film fs-6"></i><span class="ms-3">Vos videos</span></a>
+            <a href="" class="p-2"><i class="fa-brands fa-hive fs-6"></i><span class="ms-3">A regarder plustard</span></a>
+            <a href="" class="p-2"><i class="fa-regular fa-thumbs-up fs-6"></i><span class="ms-3">Video <q>J'aime</q></span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2">Abonnement</a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=12" alt=""><span class="ms-3">InfoCode</span></a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=13" alt=""><span class="ms-3">Lewtocom</span></a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=14" alt=""><span class="ms-3">Dinéé Dji</span></a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=15" alt=""><span class="ms-3">BasketInterne</span></a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=16" alt=""><span class="ms-3">Anime Sama</span></a>
+            <a href="" class="p-2"><img src="https://picsum.photos/300/150?random=17" alt=""><span class="ms-3">Codage bi</span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2">Explorer</a>
+            <a href="" class="p-2"><i class="fa-solid fa-fire-flame-curved fs-6"></i><span class="ms-3">Tendances</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-music fs-6"></i><span class="ms-3">Musiques</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-film fs-6"></i><span class="ms-3">Film</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-gamepad fs-6"></i><span class="ms-3">Jeux Vidéo</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-medal fs-6"></i><span class="ms-3">Sport</span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2">Autres contenues Youtube</a>
+            <a href="" class="p-2"><img src="image/yt3.png" alt="" class="mage"><span class="ms-3">Youtube Premium</span></a>
+            <a href="" class="p-2"><img src="image/yt4.png" alt="" class="mage"><span class="ms-3">Youtube Studio</span></a>
+            <a href="" class="p-2"><img src="image/yt2.png" alt="" class="mage"><span class="ms-3">Youtube Music</span></a>
+            <a href="" class="p-2"><img src="image/yt1.png" alt="" class="mage"><span class="ms-3">Youtube Kids</span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <a href="" class="p-2"><i class="fa-solid fa-gear fs-6"></i><span class="ms-3">Paramétres</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-flag fs-6"></i><span class="ms-3">Historiques des signalements</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-circle-info fs-6"></i><span class="ms-3">Aide</span></a>
+            <a href="" class="p-2"><i class="fa-solid fa-house fs-6"></i><span class="ms-3">Envoyer des commentaires</span></a>
+        </div>
+        <hr>
+        <div class="first d-flex flex-column">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti odio laudantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti odio laudantium.</p>
+            <div class="coryright">Copyright © 2022. Tous droits réservés.</div>
+        </div>
+    </div>
+    </div>
+  <!-- <section class="row">
+    <div class="col-sm-1 col-lg-1 bg-dark text-light">
+      <div class="les-icones d-flex flex-column align-items-center justify-content-center gap-4 position-fixed px-3">
+        <a href="" class="d-flex align-items-center justify-content-center flex-column p-2 rounded-3 border"><i class="fa-solid fa-house fs-5 mb-1"></i> <span>Home</span></a>
+        <a href="" class="d-flex align-items-center justify-content-center flex-column p-2 rounded-3 border"><i class="fa-solid fa-house fs-5 mb-1"></i> <span>Home</span></a>
+        <a href="" class="d-flex align-items-center justify-content-center flex-column p-2 rounded-3 border"><i class="fa-solid fa-house fs-5 mb-1"></i> <span>Home</span></a>
+        <a href="" class="d-flex align-items-center justify-content-center flex-column p-2 rounded-3 border"><i class="fa-solid fa-house fs-5 mb-1"></i> <span>Home</span></a>
+      </div>
+    </div>
+    <div class="col-11 bg-dark text-light">
+      <nav class="liste position-fixed fixed-top-end bg-dark p-1 d-flex align-items-center w-100">
+        <ul class="d-flex align-items-center gap-3 list-unstyled text-light">
+          <li class="active p-1 rounded-3 bg-light text-dark">Tous</li>
+          <li class="p-1 rounded-3">Informatique</li>
+          <li class="p-1 rounded-3">Web</li>
+          <li class="p-1 rounded-3">Boostrap</li>
+          <li class="p-1 rounded-3">Javascript</li>
+          <li class="p-1 rounded-3">Musique</li>
+          <li class="p-1 rounded-3">Sports</li>
+          <li class="p-1 rounded-3">Manga</li>
+          <li class="p-1 rounded-3">Divertissement</li>
+          <li class="p-1 rounded-3">Quran</li>
+          <li class="p-1 rounded-3">Mix</li>
+          <li class="p-1 rounded-3">Film</li>
+          <li class="p-1 rounded-3">Series</li>
+          <li class="p-1 rounded-3">International</li>
+        </ul>
+      </nav>
+      <div class="row les-videos">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="card-youtube">
+            <div class="video bg-danger rounded-3">
+              <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+            </div>
+            <div class="info-video mt-2">
+              <div class="imaage-titre d-flex gap-3">
+                <img src="https://picsum.photos/300/150?random=1" alt="">
+                <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                <i class="fa-solid fa-ellipsis-vertical fs-5 mt-3"></i>
+              </div>
+              <div class="name-follow">
+                <p class="m-0">Motivation XXL</p>
+                <p class="m-0">318 vues . il ya 3 mois</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="card-youtube">
+            <div class="video bg-danger rounded-3">
+              <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+            </div>
+            <div class="info-video mt-2">
+              <div class="imaage-titre d-flex gap-3">
+                <img src="https://picsum.photos/300/150?random=1" alt="">
+                <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                <i class="fa-solid fa-ellipsis-vertical fs-5 mt-3"></i>
+              </div>
+              <div class="name-follow">
+                <p class="m-0">Motivation XXL</p>
+                <p class="m-0">318 vues . il ya 3 mois</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="card-youtube">
+            <div class="video bg-danger rounded-3">
+              <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+            </div>
+            <div class="info-video mt-2">
+              <div class="imaage-titre d-flex gap-3">
+                <img src="https://picsum.photos/300/150?random=1" alt="">
+                <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                <i class="fa-solid fa-ellipsis-vertical fs-5 mt-3"></i>
+              </div>
+              <div class="name-follow">
+                <p class="m-0">Motivation XXL</p>
+                <p class="m-0">318 vues . il ya 3 mois</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="card-youtube">
+            <div class="video bg-danger rounded-3">
+              <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+            </div>
+            <div class="info-video mt-2">
+              <div class="imaage-titre d-flex gap-3">
+                <img src="https://picsum.photos/300/150?random=1" alt="">
+                <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                <i class="fa-solid fa-ellipsis-vertical fs-5 mt-3"></i>
+              </div>
+              <div class="name-follow">
+                <p class="m-0">Motivation XXL</p>
+                <p class="m-0">318 vues . il ya 3 mois</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="card-youtube">
+            <div class="video bg-danger rounded-3">
+              <iframe src="https://www.youtube.com/embed/x7i5Tp7JrG8?si=1c08m8i7j8mNBGs7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="w-100 h-100 object-fit-cover rounded-3" allowfullscreen></iframe>
+            </div>
+            <div class="info-video mt-2">
+              <div class="imaage-titre d-flex gap-3">
+                <img src="https://picsum.photos/300/150?random=1" alt="">
+                <h6>Tu en es capable donc fais le sinon tu le regreterra</h6>
+                <i class="fa-solid fa-ellipsis-vertical fs-5 mt-3"></i>
+              </div>
+              <div class="name-follow">
+                <p class="m-0">Motivation XXL</p>
+                <p class="m-0">318 vues . il ya 3 mois</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

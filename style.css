@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+/* ----les scrollbars---- */
+::-webkit-scrollbar{
+    width: 6px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.409);
+    border-radius: 10px;
+}
+
+/* ----bouton cliquable---- */
+.fa-bars{
+    cursor: pointer;
+}
+
+/* Offcanvas: bouton cliquable de youtube a cotés du logo */
+.offcanvas{
+    background-color: rgb(0, 0, 0);
+    max-width: 250px;
+}
+
+.first{
+    padding: 0 10px;
+}
+
+.first a{
+    text-decoration: none;
+    color: whitesmoke;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    white-space: nowrap;
+}
+
+.first a:hover{
+    background-color: rgba(255, 255, 255, 0.119);
+    border-radius: 10px;
+}
+
+.first span{
+    font-size: 15px;
+    /* opacity: 0.8; */
+    font-weight: 400;
+}
+
+.first p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.first img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.first .mage{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.first .coryright{
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+/* --------Le navbar------- */
+.navbar{
+    background-color: black;
+}
+
+/* ----logo---- */
+.logo-im-text{
+    width: 2rem;
+    cursor: pointer;
+}
+
+.logo-im-text h5{
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.sn{
+    font-size: 10px;
+    opacity: 0.8;
+    top: -7px;
+    left: -2px;
+}
+
+/* ----form---- */
+form{
+    width: 550px;
+    border-radius: 150px;
+    border: none;
+    position: relative;
+
+    border: 1px solid rgba(76, 76, 76, 0.909);
+}
+
+form input{
+    background-color: rgba(22, 22, 22, 0.852) !important;
+    border: none !important;
+    border-radius: 150px 0 0 150px !important;
+    /* border-radius: 150px; */
+    outline: none !important;
+}
+
+.Search-bar .btn{
+    background-color: rgba(249, 249, 249, 0.162) !important;
+    color: whitesmoke !important;
+    border-radius: 0 150px 150px 0 !important;
+    cursor: pointer;
+    padding: 0 25px !important;
+}
+
+.micro{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(245, 245, 245, 0.135);
+    color: whitesmoke;
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.micro:hover{
+    background-color: rgba(245, 245, 245, 0.256);
+    cursor: pointer;
+}
+
+/* ----icon--- */
+.icon-content{
+    width: 2rem;
+    height: 2rem;
+    color: whitesmoke;
+    /* position: relative;
+    z-index: 2; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-content:hover{
+    background-color: rgba(245, 245, 245, 0.256);
+    cursor: pointer;
+}
+
+.part-icon img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-content i{
+    font-size: 18px;
+}
+
+.material-symbols-outlined{
+    font-size: 23px;
+}
+
+
+/* -----contenue de ma page youtube----- */
+/* ----sidebar--- */
+.icones{
+    height: 100vh;
+    margin-top: 4.5rem;
+    /* background-color: aqua; */
+}
+
+.icones a{
+    text-decoration: none;
+    color: whitesmoke;
+    /* background-color: aqua; */
+}
+
+.icones a:hover{
+    background-color: rgba(255, 255, 255, 0.119);
+}
+
+.icones span{
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/* ----listes des videos---- */
+.s-right ul {
+    margin-top: 3.5rem;
+    list-style: none;
+    overflow-x: scroll;
+    max-width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    padding-right: 5rem;
+    /* background-color: black; */
+    /* text-overflow: ellipsis; */
+    /* width: 100%; */
+    /* overflow-x: scroll; */
+}
+
+.s-right ul::-webkit-scrollbar{
+    height: 2px;
+    /* opacity: 0; */
+    display: none;
+}
+
+.s-right ul li{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(245, 245, 245, 0.156);
+}
+
+.s-right ul li:hover{
+    background-color: rgba(245, 245, 245, 0.256);
+    cursor: pointer;
+}
+
+/* .s-right ul::-webkit-scrollbar:hover{
+    display: block;
+} */
+
+/* ----les videos---- */
+.s-right .row{
+    /* width: 800px; */
+    /* width: 100%; */
+    margin-top: 7rem;
+}
+
+.s-right .row .card-youtube{
+    /* box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.345); */
+    padding: 10px;
+}
+
+/* .card-youtube:focus{
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.100);
+    border-radius: 15px !important;
+} */
+
+.card-youtube .video{
+    width: 100%;
+    height: 38vh;
+    border-radius: 15px !important;
+}
+
+.video iframe{
+    /* height: 100%; */
+    border-radius: 15px !important;
+}
+
+.card-youtube .imaage-titre img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-follow p{
+    /* position: relative; */
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.video-text p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.trait-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+    /* opacity: 0.8; */
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+}
+
+.trait-button a:hover{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    cursor: pointer;
+}
+
+.trait{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.409);
+    /* position: relative; */
+    margin-top: 15px;
+}
+
+.logo-titre img{
+    width: 2rem;
+}
+
+.short video{
+    height: 65vh;
+}
+
+.short .video{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.video video{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
