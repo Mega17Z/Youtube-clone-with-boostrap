@@ -53,7 +53,6 @@ body{
 
 .first span{
     font-size: 15px;
-    /* opacity: 0.8; */
     font-weight: 400;
 }
 
@@ -116,7 +115,6 @@ form input{
     background-color: rgba(22, 22, 22, 0.852) !important;
     border: none !important;
     border-radius: 150px 0 0 150px !important;
-    /* border-radius: 150px; */
     outline: none !important;
 }
 
@@ -148,8 +146,6 @@ form input{
     width: 2rem;
     height: 2rem;
     color: whitesmoke;
-    /* position: relative;
-    z-index: 2; */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -182,13 +178,11 @@ form input{
 .icones{
     height: 100vh;
     margin-top: 4.5rem;
-    /* background-color: aqua; */
 }
 
 .icones a{
     text-decoration: none;
     color: whitesmoke;
-    /* background-color: aqua; */
 }
 
 .icones a:hover{
@@ -210,15 +204,10 @@ form input{
     background-color: black;
     padding: 10px 0;
     padding-right: 5rem;
-    /* background-color: black; */
-    /* text-overflow: ellipsis; */
-    /* width: 100%; */
-    /* overflow-x: scroll; */
 }
 
 .s-right ul::-webkit-scrollbar{
     height: 2px;
-    /* opacity: 0; */
     display: none;
 }
 
@@ -233,27 +222,14 @@ form input{
     cursor: pointer;
 }
 
-/* .s-right ul::-webkit-scrollbar:hover{
-    display: block;
-} */
-
 /* ----les videos---- */
 .s-right .row{
-    /* width: 800px; */
-    /* width: 100%; */
     margin-top: 7rem;
 }
 
 .s-right .row .card-youtube{
-    /* box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.345); */
     padding: 10px;
 }
-
-/* .card-youtube:focus{
-    cursor: pointer;
-    background-color: rgba(245, 245, 245, 0.100);
-    border-radius: 15px !important;
-} */
 
 .card-youtube .video{
     width: 100%;
@@ -262,7 +238,6 @@ form input{
 }
 
 .video iframe{
-    /* height: 100%; */
     border-radius: 15px !important;
 }
 
@@ -274,7 +249,6 @@ form input{
 }
 
 .name-follow p{
-    /* position: relative; */
     font-size: 14px;
     opacity: 0.8;
 }
@@ -289,7 +263,6 @@ form input{
     color: whitesmoke;
     background-color: rgb(0, 0, 0);
     font-size: 14px;
-    /* opacity: 0.8; */
     font-weight: 500;
     z-index: 2;
     position: relative;
@@ -305,7 +278,6 @@ form input{
     width: 100%;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.409);
-    /* position: relative; */
     margin-top: 15px;
 }
 
